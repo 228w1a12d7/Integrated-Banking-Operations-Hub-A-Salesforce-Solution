@@ -1,16 +1,18 @@
-# Integrated Banking Operations Hub: A Salesforce Solution
-
+### Demo Video link : https://drive.google.com/file/d/1i_6oWJH7dTLHBDQvpidB-MhdKWJwUxIn/view?usp=sharing
 ### Document link : https://docs.google.com/document/d/1VZkie1NwYNsKFQ8z1-iZB6UZUcgi39n5nJfgpOtTlnc/edit?usp=sharing
+### Presntation (PPT) link : https://drive.google.com/file/d/107lYOpoYtZXxozNH7myI2cvQeZK4SYE1/view?usp=sharing
 
-### Problem Statement
+# Integrated Banking Operations Hub With AI Integrated : A Salesforce Solution
 
-A financial institution is struggling with disconnected, department-specific systems. Their loan officers use one system, wealth advisors use spreadsheets, and the compliance team uses a manual, paper-based process. This leads to:
+### Project Overview
+This CRM project establishes an Integrated Banking Hub to unify critical financial operations: Loan Management, Wealth Management, and Regulatory Compliance. The platform automates high-volume lending decisions through Flows and Approval Processes, provides financial advisors with real-time portfolio valuation, and enforces security by creating an automated audit trail for compliance. The key business need addressed is replacing fragmented, manual processes with a secure, centralized, and efficient system.
 
-- **Fragmented Client Data:** No single source of truth for a client's financial history, making it impossible to get a complete 360-degree view.
-- **Operational Inefficiency:** Manual data entry across multiple systems leads to high operational costs and a high risk of errors.
-- **Compliance Risk:** Without a centralized system, the bank struggles to enforce regulatory compliance and track all risk events, exposing them to potential fines and legal issues.
-
-The goal is to build a single, unified **Salesforce-based Integrated Banking Operations Hub** that connects all these functions. This solution will not only streamline operations but also provide a secure and compliant platform for managing all client relationships.
+###**Objectives**
+The main goals of building this CRM were to achieve operational efficiency and enhance regulatory posture.
+- **Automate Lending:** Implement intelligent routing to ensure high-value loans (>₹20 Lakhs) receive mandatory manager review via an Approval Process, while low-value loans are auto-approved for streamlined booking.
+- **Enable Real-Time Advice:** Calculate client portfolio value and goal progress dynamically using Apex Triggers and Roll-Up logic to enable proactive financial advice.
+- **Ensure Compliance:**  Establish a foundational Audit Log for critical changes and centralize risk monitoring using custom objects and automated Flows.
+- **Visibility:** Deliver custom Lightning Web Component (LWC) dashboards for personalized, role-specific insights across all modules.
 
 ### Key Features and Use Cases
 
@@ -18,15 +20,15 @@ This project will be a masterclass in Salesforce development, covering all the t
 
 **1. Loan Management Module**
 - **Use Case:** Digitize the loan application, approval, and repayment process.
-- **Key Features:** Automated risk scoring, multi-step approval process, and a customer portal for applicants.
+- **Key Features:** Includes automated risk scoring, a multi-step approval process, and an automated audit trail.
 
 **2. Wealth & Portfolio Management Module**
-- **Use Case:** Centrally track a client's investment portfolio, financial assets, and goals.
-- **Key Features:** Automatic calculation of portfolio value, real-time asset tracking, and a dynamic dashboard for financial advisors.
+- **Use Case:** Centralize the tracking of a client's investment portfolio, assets, and goals.
+- **Key Features:** Provides automatic calculation of portfolio value (using Apex/Roll-Up logic), real-time asset tracking, and a dynamic LWC dashboard for advisors.
 
 **3. Compliance & Risk Management Module**
-- **Use Case:** Monitor and manage regulatory compliance and risk events across the entire bank.
-- **Key Features:** A system to track all regulations, audit every major change, and send alerts for compliance issues.
+- **Use Case:** Monitor and manage regulatory compliance and risk events across the bank.
+- **Key Features:** A system to track regulations, audit major changes (via Flow), and send alerts for compliance issues.
 
 ---
 
